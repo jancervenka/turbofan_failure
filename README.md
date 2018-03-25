@@ -15,3 +15,11 @@ To use a Support vector machine (SVM) is suggested in [2]. The authors recommend
 SVM model is provided in the Scikit library. I used the default setting with the RBF kernel function.
 
 ## Results
+I used three different metrics to assess the prediction for each model. Mean square error (MSE), median of absolute differences between the real and predicted RULs, and the score defined by formula (11) in [3].
+
+| Metric                     | Neural Network | SVM   |
+| -------------------------- |:--------------:| -----:|
+| MSE                        | 4.92           | 659.8 |
+| Median absolute difference | 24.54          | 22.96 |
+| Score                      | 3.89e9         | 3.54  |
+### SVM Performance

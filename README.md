@@ -19,7 +19,13 @@ I used three different metrics to assess the prediction for each model. Mean squ
 
 | Metric                     | Neural Network | SVM   |
 | -------------------------- |:--------------:| -----:|
-| MSE                        | 4.92           | 659.8 |
+| MSE                        | 4.92           | 3.54  |
 | Median absolute difference | 24.54          | 22.96 |
-| Score                      | 3.89e9         | 3.54  |
+| Score                      | 3.89e9         | 659.8 |
+
+![Example](img/scatter_nnr.png)
+![Example](img/hist_nnr.png)
+![Example](img/scatter_svm.png)
+![Example](img/hist_svm.png)
+
 ### SVM Performance

@@ -1,6 +1,6 @@
 pandas==1.0.3
 joblib==0.14.1
-tensorflow==2.1.2
+tensorflow==2.5.1
 matplotlib==3.2.1
 scipy==1.4.1
 numpy==1.16.4
